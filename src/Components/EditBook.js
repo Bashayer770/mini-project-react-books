@@ -18,9 +18,14 @@ export default function EditBook({ book }) {
 
   return (
     <>
-      <div>EditBook</div>;<button onClick={deleteBook.mutate}>Delete</button>
-      <button onClick={adjustBook.mutate}>available</button>
+      <button className="thebuttons" onClick={deleteBook.mutate}>
+        Delete
+      </button>
+      <button className="thebuttons" onClick={adjustBook.mutate}>
+        available
+      </button>
       <button
+        className="thebuttons"
         onClick={() => {
           navigate(`/BookDetails/${book.id}`);
         }}

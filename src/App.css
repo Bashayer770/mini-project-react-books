@@ -36,3 +36,253 @@
     transform: rotate(360deg);
   }
 }
+.homeHeaderMain {
+  position: absolute;
+  width: 100vw;
+  height: 118px;
+  background-color: #81a9bf;
+}
+.logoName {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+}
+.homeHeader2 {
+  position: absolute;
+  width: 100vw;
+  height: 19px;
+  left: 0px;
+  top: 122px;
+  background-color: #a1c1d3;
+}
+.navlist {
+  display: flex;
+  gap: 45px;
+}
+.homeHeader3 {
+  position: absolute;
+  width: 100vw;
+  height: 9px;
+  left: 0px;
+  top: 147px;
+  background-color: #bbd1de;
+}
+
+.theBody {
+  position: absolute;
+  width: 1317px;
+  height: 590px;
+  left: 75px;
+  top: 299px;
+  background-color: #f8fafc;
+  border-radius: 25px;
+}
+.theBookList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 70px;
+  margin-left: 10px;
+}
+
+.theList {
+  box-sizing: border-box;
+  margin-top: 100px;
+  min-width: 250px;
+  background-color: #ffffff;
+  box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.forBooklist {
+  width: 269px;
+  height: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #5f95b4;
+  filter: blur(2px);
+}
+.forAddBook {
+  padding-top: 200px;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin-right: 70px;
+}
+
+.forTheHome {
+  width: 269px;
+  height: 65px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #5f95b4;
+  filter: blur(2px);
+  padding-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bookListBody {
+  position: absolute;
+  width: 1317px;
+  height: 590px;
+  left: 75px;
+  top: 299px;
+  background-color: #f8fafc;
+  border-radius: 25px;
+}
+
+.AddButton {
+  background-color: #81a9bf;
+  color: white;
+  border: #81a9bf;
+  border-radius: 12px;
+  size: 30px;
+  position: absolute;
+  width: 180;
+  height: 34px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 39px;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.thebuttons {
+  background-color: #81a9bf;
+  color: white;
+  border: #81a9bf;
+  border-radius: 12px;
+  size: 30px;
+  margin-bottom: 5px;
+  width: 150px;
+  height: 34px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 39px;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.TheFormPage {
+  width: 269px;
+  height: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #5f95b4;
+  filter: blur(2px);
+}
+
+.TheValues {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+}
+
+.TheInput input {
+  height: 50px;
+  width: 600px;
+  border-radius: 25px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 1360px;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: auto;
+  border-radius: 35px;
+  position: relative;
+}
+
+.container form {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.container h5,
+input {
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.container button {
+  margin-top: 20px;
+}
+
+.container input {
+  padding-left: 20px;
+}
+
+.BookDetails {
+  width: 269px;
+  height: 65px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #5f95b4;
+  padding-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  filter: blur(2px);
+}
+
+.Container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
