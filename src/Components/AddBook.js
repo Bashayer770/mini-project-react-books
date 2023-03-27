@@ -29,7 +29,7 @@ export default function AddBook() {
     <div
       style={{
         paddingTop: "20%",
-        width: "100%",
+        width: "100vw",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
