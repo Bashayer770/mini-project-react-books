@@ -20,3 +20,7 @@ export function Delete(id) {
     `https://mini-project-react-books.herokuapp.com/books/${id}`
   );
 }
+
+export function getBook(id) {
+  return axios.get(`https://mini-project-react-books.herokuapp.com/book/${id}`);
+}

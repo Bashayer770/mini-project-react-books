@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import BookList from "./Components/BookList";
 import Home from "./Components/Home";
 import AddBook from "./Components/AddBook";
+import { BookDetails } from "./Components/BookDetails";
 
 const queryClient = new QueryClient();
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/BookList" element={<BookList />} />
         <Route path="/BookList/Add" element={<AddBook />} />
+        <Route path="/BookDetails/:id" element={<BookDetails/>}/>
       </Routes>
     </QueryClientProvider>
   );
