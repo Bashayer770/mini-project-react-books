@@ -24,3 +24,4 @@ export function Delete(id) {
 export function getBook(id) {
   return axios.get(`https://mini-project-react-books.herokuapp.com/book/${id}`);
 }
+//function
